@@ -11,7 +11,7 @@ body {
     width: 100%;
 }
 
-header, .article-wrapper, article, aside, footer {
+header, .article-wrapper, article, .aside, footer {
     border-radius: 0.5rem;
 }
 
@@ -44,7 +44,7 @@ header {
     width: 100%
 }
 
-aside {
+.aside {
     background-color: steelblue;
     color: white;
     text-align: center;
@@ -65,7 +65,6 @@ footer {
 main {
     width: 100%;
 }
-
 
 @media (min-width: 768px) {
     body {
